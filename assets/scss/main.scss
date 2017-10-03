@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,800");
-@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css");
 @import "helpers/media-queries";
 
 * {
@@ -16,12 +16,15 @@ body {
 a {
   color: #60606e;
   text-decoration: none;
+
   &:hover {
     text-decoration: none;
   }
+
   &:active {
     text-decoration: none;
   }
+
   &:link {
     text-decoration: none;
   }
@@ -430,28 +433,33 @@ i[class|="ion"] {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #9a9a9a;
+
   &__menu {
     padding: 50px 0 0;
     display: flex;
     justify-content: space-between;
     margin: 0;
     list-style: none;
+
     &-item {
       text-transform: uppercase;
     }
   }
+
   &__text {
     padding-top: 50px;
     margin: 0;
     color: #9a9a9a;
     text-align: right;
   }
+
   &__social {
     display: flex;
     justify-content: space-between;
     padding: 0;
     margin: 30px 0 50px;
     list-style: none;
+
     &-item {
       font-size: 18px;
       color: #999999;
